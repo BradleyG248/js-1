@@ -17,3 +17,20 @@ let me = {
     }
   }
 }
+
+let users = {
+  user1: {
+    avatar: "banana",
+    favoriteVehicle: "Seargent Marauder",
+    playTime: "17.5 hours",
+    guild: "The deadliest fruit"
+  },
+  gamer: {
+    avatar: "orange",
+    guild: "Deadly Fruit"
+  }
+}
+function avatar() {
+  let x = myForm.fname.value;
+  console.log(users[x].avatar);
+}
